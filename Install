@@ -10,7 +10,7 @@
     echo -e "\033[1;32mINICIANDO BOT TESTE \033[0m\n"
     cd $HOME/BOT
     rm -rf $HOME/BOT/botssh
-    wget https://raw.githubusercontent.com/netfreeplus/testnetcol/main/botssh >/dev/null 2>&1
+    wget https://www.dropbox.com/scl/fi/camalxu5bnczydim67tg3/botssh?rlkey=gzd4p3cmh7f37yo0ijo0ytij2 >/dev/null 2>&1
     rm -rf $HOME/ShellBot.sh
     wget https://raw.githubusercontent.com/netfreeplus/testnetcol/main/ShellBot.sh >/dev/null 2>&1
     chmod 777 botssh 
