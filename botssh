@@ -60,7 +60,7 @@ rm -rf /etc/SSHPlus/userteste/$usuario.sh" > /etc/SSHPlus/userteste/$usuario.sh
     echo ${callback_query_from_id} >> lista
     # - ENVIA O SSH
     ShellBot.sendMessage --chat_id ${callback_query_message_chat_id} \
-    --text "$(echo -e "✅ <b>Criado com sucesso</b> ✅\n\nIP: $ip_server3\nUSUARIO: <code>$usuario</code>\nSENHA: <code>$senha</code>\n\n⏳ Expira em: $tempo Horas")\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n 🌐 Dominios: \n Puerto 80: </code>f.cerebrocol.com</code>\n Puerto 443: </code>f.netcol.nl</code>\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n   ℹ️ COMO CONECTAR EL USUARIO\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n• Abra su app de preferencia HTTP CUSTOM.\n• La puedes descargar en las siguientes opciónes.\n• La app y servidores para la misma para varios países disponibles aca @NETCOLVIPHC o en las siguientes opciones.\n• Importar el servidor a usar.\n• Ingrese el usuario y clave generado.\n• Y conecte la app..\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n    Inconvenientes al conectar el usuario y demás problemas soporte @NETCOLVIP .\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n   ⚠️ SIGUE EXACTAMENTE LO QUE DICE\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n " \
+    --text "$(echo -e "✅ <b>Creado con exito</b> ✅\n\nIP: $ip_server3\nUSUARIO: <code>$usuario</code>\nSENHA: <code>$senha</code>\n\n⏳ Expira em: $tempo Horas")\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n 🌐 Dominios: \n Puerto 80: </code>f.cerebrocol.com</code>\n Puerto 443: </code>f.netcol.nl</code>\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n   ℹ️ COMO CONECTAR EL USUARIO\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n• Abra su app de preferencia HTTP CUSTOM.\n• La puedes descargar en las siguientes opciónes.\n• La app y servidores para la misma para varios países disponibles aca @NETCOLVIPHC o en las siguientes opciones.\n• Importar el servidor a usar.\n• Ingrese el usuario y clave generado.\n• Y conecte la app..\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n    Inconvenientes al conectar el usuario y demás problemas soporte @NETCOLVIP .\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n   ⚠️ SIGUE EXACTAMENTE LO QUE DICE\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n" \
     --parse_mode html
     return 0
 }
@@ -95,7 +95,7 @@ EOF
 	echo ${callback_query_from_id} >> lista
     # - ENVIA O SSH
     ShellBot.sendMessage --chat_id ${callback_query_message_chat_id} \
-    --text "$(echo -e "✅ <b>Criado com sucesso</b> ✅\n\nIP: $ip_server3\nUSUARIO: <code>$usuario</code>\nSENHA: <code>$senha</code>\n\n⏳ Expira em: $tempo Horas")\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n 🌐 Dominios: \n Puerto 80: </code>f.cerebrocol.com</code>\n Puerto 443: </code>f.netcol.nl</code>\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n   ℹ️ COMO CONECTAR EL USUARIO\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n• Abra su app de preferencia HTTP CUSTOM.\n• La puedes descargar en las siguientes opciónes.\n• La app y servidores para la misma para varios países disponibles aca @NETCOLVIPHC o en las siguientes opciones.\n• Importar el servidor a usar.\n• Ingrese el usuario y clave generado.\n• Y conecte la app..\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n    Inconvenientes al conectar el usuario y demás problemas soporte @NETCOLVIP .\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n   ⚠️ SIGUE EXACTAMENTE LO QUE DICE\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n" \
+    --text "$(echo -e "✅ <b>Creado con exito</b> ✅\n\nIP: $ip_server3\nUSUARIO: <code>$usuario</code>\nSENHA: <code>$senha</code>\n\n⏳ Expira em: $tempo Horas")\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n 🌐 Dominios: \n Puerto 80: </code>f.cerebrocol.com</code>\n Puerto 443: </code>f.netcol.nl</code>\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n   ℹ️ COMO CONECTAR EL USUARIO\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n• Abra su app de preferencia HTTP CUSTOM.\n• La puedes descargar en las siguientes opciónes.\n• La app y servidores para la misma para varios países disponibles aca @NETCOLVIPHC o en las siguientes opciones.\n• Importar el servidor a usar.\n• Ingrese el usuario y clave generado.\n• Y conecte la app..\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n    Inconvenientes al conectar el usuario y demás problemas soporte @NETCOLVIP .\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n   ⚠️ SIGUE EXACTAMENTE LO QUE DICE\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n" \
     --parse_mode html
     return 0
 else
@@ -110,13 +110,13 @@ fi
 criarteste3() {
 	[[ $(grep -wc ${callback_query_from_id} lista) != '0' ]] && {
       ShellBot.sendMessage --chat_id ${callback_query_message_chat_id} \
-        --text "VC JA CRIOU SSH HOJE !"
+        --text "❌ Acceso denegado, verifique la hora de su última creación y regrese solo cuando complete 24 horas de su última creación!"
       return 0
     }
-    usuario=$(echo teste$(( RANDOM% + 250 )))
-    senha=$((RANDOM% + 99999))
+    usuario=$(echo NETCOL$(( RANDOM% + 250 )))
+    senha=$((RANDOM% + VIP999))
     limite='1'
-    tempo='1'
+    tempo='4'
     tuserdate=$(date '+%C%y/%m/%d' -d " +1 days")
     if sshpass -p "$senha_server3" ssh -o ConnectTimeout=2 -o StrictHostKeyChecking=no root@$ip_server3 echo "ok" 1>/dev/null 2>/dev/null; then
 		sshpass -p "$senha_server3" ssh -o ConnectTimeout=2 -o StrictHostKeyChecking=no root@$ip_server3 << EOF
@@ -136,10 +136,25 @@ EOF
 	echo ${callback_query_from_id} >> lista
     # - ENVIA O SSH
     ShellBot.sendMessage --chat_id ${callback_query_message_chat_id} \
-    --text "$(echo -e "✅ <b>Criado com sucesso</b> ✅\n\nIP: $ip_server3\nUSUARIO: <code>$usuario</code>\nSENHA: <code>$senha</code>\n\n⏳ Expira em: $tempo Horas")\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n 🌐 Dominios: \n Puerto 80: </code>f.cerebrocol.com</code>\n Puerto 443: </code>f.netcol.nl</code>\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n   ℹ️ COMO CONECTAR EL USUARIO\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n• Abra su app de preferencia HTTP CUSTOM.\n• La puedes descargar en las siguientes opciónes.\n• La app y servidores para la misma para varios países disponibles aca @NETCOLVIPHC o en las siguientes opciones.\n• Importar el servidor a usar.\n• Ingrese el usuario y clave generado.\n• Y conecte la app..\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n    Inconvenientes al conectar el usuario y demás problemas soporte @NETCOLVIP .\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n   ⚠️ SIGUE EXACTAMENTE LO QUE DICE\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n  😍 ¿TE GUSTA EL SERVICIO? ESCRIBA O HAGA CLIC EN /PIX" \
+    --text "$(echo -e "✅ <b>Creado con exito</b> ✅\n\nIP: $ip_server3\nUSUARIO: <code>$usuario</code>\nSENHA: <code>$senha</code>\n\n⏳ Expira em: $tempo Horas")\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n 🌐 Dominios: \n Puerto 80: </code>f.cerebrocol.com</code>\n Puerto 443: </code>f.netcol.nl</code>\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n   ℹ️ COMO CONECTAR EL USUARIO\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n• Abra su app de preferencia HTTP CUSTOM.\n• La puedes descargar en las siguientes opciónes.\n• La app y servidores para la misma para varios países disponibles aca @NETCOLVIPHC o en las siguientes opciones.\n• Importar el servidor a usar.\n• Ingrese el usuario y clave generado.\n• Y conecte la app..\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n    Inconvenientes al conectar el usuario y demás problemas soporte @NETCOLVIP .\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n   ⚠️ SIGUE EXACTAMENTE LO QUE DICE\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n" \
     --parse_mode html
     return 0
+else
+ShellBot.sendMessage --chat_id ${callback_query_message_chat_id} \
+	--text "$(echo -e Erro Tente novamente Mais tarde!)" \
+	--parse_mode html
+	return 0
 fi
+}
+
+#enviar app
+enviarapp() {
+    ShellBot.answerCallbackQuery --callback_query_id ${callback_query_id[$id]} \
+        --text "♻️ ENVIANDO APLICATIVO..."
+    ShellBot.sendDocument --chat_id ${callback_query_message_chat_id} \
+        --document "@/root/base.apk" \
+    return 0
+    
 }
 
 #enviar hc
@@ -159,7 +174,6 @@ enviarhc() {
 
     }
 
-
 #informacoes usuario
 infouser () {
 	ShellBot.sendMessage --chat_id ${message_chat_id[$id]} \
@@ -176,6 +190,8 @@ ShellBot.InlineKeyboardButton --button 'botao1' --line 3 --text '🔰 ARQUIVOS H
 ShellBot.InlineKeyboardButton --button 'botao1' --line 4 --text '👨‍💻COMPRE AQUI👨‍💻'  --callback_data '2' --url 't.me/NETCOLVIP' # privado
 ShellBot.InlineKeyboardButton --button 'botao1' --line 5 --text '⚠️ SOPORTE ⚠️'  --callback_data '3' --url 't.me/NETCOLVIP' # termos
 ShellBot.regHandleFunction --function criarteste --callback_data gerarssh
+ShellBot.regHandleFunction --function criarteste2 --callback_data gerarssh2
+ShellBot.regHandleFunction --function criarteste3 --callback_data gerarssh3
 ShellBot.regHandleFunction --function enviarapp --callback_data appenviar
 ShellBot.regHandleFunction --function enviarhc --callback_data hcenviar
 unset keyboard1
@@ -185,7 +201,7 @@ while :; do
    	echo $(date +%d) > RESET
    	echo ' ' > lista
    }
-  ShellBot.getUpdates --limit 100 --offset $(ShellBot.OffsetNext) --timeout 24
+  ShellBot.getUpdates --limit 100 --offset $(ShellBot.OffsetNext) --timeout 30
   for id in $(ShellBot.ListUpdates); do
     (
       ShellBot.watchHandle --callback_data ${callback_query_data[$id]}
